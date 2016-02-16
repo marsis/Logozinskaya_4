@@ -1,0 +1,199 @@
+* {
+margin: 0;
+padding: 0;
+}
+.bag{
+	width: 1300px;
+	background-image: url(../img/bg1.png);
+	margin: 0 auto;
+}
+.wrapper{
+	width: 1000px;
+	background: white;
+	margin: 0 auto;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+	
+}
+.heder{
+	width: 1000px;
+	height: 175px;
+	color: white;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.logo{
+	margin-left: 20px;
+	margin-top: 15px;
+	float: left;
+}
+.contacts{
+	width: 120px;
+	height: 80px;
+	margin-right: 20px;
+	margin-top: 15px;
+	float: right;
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #128AA7;
+}
+.icons{
+	width: 380px;
+	float: right;
+	clear: left;
+	margin-top: -70px;
+}
+.country{
+	position: relative;
+	overflow: hidden;
+}
+.country li{
+	margin-right: 10px;
+	position: relative;
+	float: left
+}
+.country a{
+	
+	display: block;
+	width: 50px;
+	height: 10px;
+	float: right;
+	clear: right;
+	text-decoration: none;
+	text-align: center;
+	font-family: tahoma;
+	font-size: 9px;
+	padding-top: 40px;
+	color: #128AA7;
+	background-position: center top;
+	background-repeat: no-repeat;
+	
+}
+.country .india a {
+	background-image: url(../img/i_flag.png);
+}
+.country .nepal a {
+	background-image: url(../img/n_flag.png);
+}
+.country .tibet a {
+	background-image: url(../img/t_flag.png);
+}
+.country .butan a {
+	background-image: url(../img/b_flag.png);
+}
+.country .shrilanka a {
+	background-image: url(../img/s_flag.png);
+}
+.country .maldivi a {
+	background-image: url(../img/m_flag.png);
+}
+
+.top{
+	
+}
+.foto{
+	
+}
+.top{
+	height: 30px;
+	margin: 0 auto;
+	background: linear-gradient(to top, #373737, #303030);
+	box-shadow: 0 5px 5px -5px #333;
+	list-style: none;
+	}
+ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul:after {
+	display: block;
+	content: ' ';
+	clear: both;
+	float: none;
+}
+ul.menu > li {
+	float: left;
+	position: relative;
+}
+ul.menu > li > a {
+	display:block;
+	padding: 10px;
+	color: #fff;
+	font-size: 10px;
+	font-family: Tahoma;
+	text-decoration: none;
+}
+ul.menu > li > a:hover{
+	background-color: black;
+}
+ul.submenu {
+	display: none;
+	position: absolute;
+	width: 120px;
+	top: 37px;
+	left: 0;
+	background: linear-gradient(to top, #373737, #303030);
+	box-shadow: 0 5px 5px -5px #333;
+	
+}
+ul.submenu > li{
+	display: block;
+	z-index: 25;
+}
+ul.submenu > li > a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-size: 10px;
+	font-family: Tahoma;
+	text-decoration: none;
+	z-index: 25;
+}
+ul.submenu> li > a:hover{
+	text-decoration: underline;
+}
+ul. menu > li:hover > ul.submenu{
+	display: block;
+}
+/*колонки*/
+.content{
+ width: 1000px;
+ overflow: hidden;
+}
+
+.left-column{
+ width: 209px;
+ border: 1px solid grey;
+ float: left;
+ background: #edeef0;
+ padding-bottom: 2000px;
+ margin-bottom: -2000px;
+}
+
+.centr-column{
+ width: 582px;
+ float: left;
+ background: white;
+ padding-bottom: 2000px;
+ margin-bottom: -2000px;
+}
+
+.right-column {
+ width: 209px;
+ border: 1px solid grey;
+ float: right;
+ background: #edeef0;
+ padding-bottom: 2000px;
+ margin-bottom: -2000px;
+}
+
+.text {
+	font-family: Tahoma;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 20 0;
+	margin: 20 0;
+	}
