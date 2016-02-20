@@ -2,8 +2,12 @@
 margin: 0;
 padding: 0;
 }
+body{
+	background-color: #0C739F; 
+}
 .bag{
-	width: 1300px;
+	width: 100%;
+	background-repeat: repeat-x;
 	background-image: url(../img/bg1.png);
 	margin: 0 auto;
 }
@@ -36,21 +40,27 @@ padding: 0;
 	font-family: Tahoma;
 	font-size: 10px;
 	color: #128AA7;
+	
+}
+.contacts p:first-line{
+	font-weight: bold;
 }
 .icons{
 	width: 380px;
 	float: right;
 	clear: left;
 	margin-top: -70px;
+	
 }
 .country{
 	position: relative;
-	overflow: hidden;
+	
 }
 .country li{
 	margin-right: 10px;
 	position: relative;
-	float: left
+	float: left;
+	
 }
 .country a{
 	
@@ -59,10 +69,10 @@ padding: 0;
 	height: 10px;
 	float: right;
 	clear: right;
-	text-decoration: none;
 	text-align: center;
 	font-family: tahoma;
 	font-size: 9px;
+	
 	padding-top: 40px;
 	color: #128AA7;
 	background-position: center top;
@@ -88,75 +98,64 @@ padding: 0;
 	background-image: url(../img/m_flag.png);
 }
 
-.top{
-	
-}
-.foto{
-	
-}
-.top{
+
+.top-menu{
+	width: 1000px;
 	height: 30px;
 	margin: 0 auto;
+	margin-top: -4px;
 	background: linear-gradient(to top, #373737, #303030);
 	box-shadow: 0 5px 5px -5px #333;
-	list-style: none;
+	border-top: 1px solid #CACBCB;
+	
+	
 	}
-ul {
-	display: block;
-	margin: 0;
-	padding: 0;
+.menu ul {
 	list-style: none;
-}
-ul:after {
-	display: block;
-	content: ' ';
-	clear: both;
-	float: none;
-}
-ul.menu > li {
-	float: left;
-	position: relative;
-}
-ul.menu > li > a {
-	display:block;
-	padding: 10px;
-	color: #fff;
-	font-size: 10px;
-	font-family: Tahoma;
-	text-decoration: none;
-}
-ul.menu > li > a:hover{
-	background-color: black;
-}
-ul.submenu {
-	display: none;
-	position: absolute;
-	width: 120px;
-	top: 37px;
-	left: 0;
-	background: linear-gradient(to top, #373737, #303030);
-	box-shadow: 0 5px 5px -5px #333;
 	
 }
-ul.submenu > li{
-	display: block;
-	z-index: 25;
-}
-ul.submenu > li > a {
-	display: block;
-	padding: 10px;
+
+.menu ul li{
+	float: left;
+	height: 24px;
+	margin-right: 20px;
+	margin-left: 20px;	
+	position: relative;
+	padding-left: 20px;
+	}	
+.menu ul li ul{
+		display: none;
+		position: absolute;
+		top: 29px;
+		
+		padding-right: 30px;
+		width: 120px;
+		height:122px;
+		border: 2px solid transparent;
+		background: #303030;
+		box-shadow:  0 0 10px rgba(0,0,0,0.5);
+		text-align: right;
+		line-height: 75%
+	}
+	.menu ul li:hover ul{
+		display:block;
+	}
+	
+.menu ul li a{
+	display:block;
+	padding: 5px;
 	color: #fff;
-	font-size: 10px;
+	font-size: 14px;
 	font-family: Tahoma;
 	text-decoration: none;
-	z-index: 25;
 }
-ul.submenu> li > a:hover{
-	text-decoration: underline;
+.menu ul li ul li{
+padding-left: 0;
+margin-left: 0;	
 }
-ul. menu > li:hover > ul.submenu{
-	display: block;
-}
+
+	
+
 /*колонки*/
 .content{
  width: 1000px;
@@ -165,13 +164,20 @@ ul. menu > li:hover > ul.submenu{
 
 .left-column{
  width: 209px;
- border: 1px solid grey;
+ height: 600px;
+ border: 1px solid silver;
  float: left;
  background: #edeef0;
  padding-bottom: 2000px;
  margin-bottom: -2000px;
 }
-
+.inright{
+	height: 270px;
+	border-bottom: 1px solid silver;
+	
+	
+	
+}
 .centr-column{
  width: 582px;
  float: left;
@@ -182,7 +188,7 @@ ul. menu > li:hover > ul.submenu{
 
 .right-column {
  width: 209px;
- border: 1px solid grey;
+ border: 1px solid silver;
  float: right;
  background: #edeef0;
  padding-bottom: 2000px;
@@ -194,6 +200,37 @@ ul. menu > li:hover > ul.submenu{
 	color: #fff;
 	font-size: 12px;
 	text-align: center;
-	padding: 20 0;
+	padding-bottom: 5px;
 	margin: 20 0;
 	}
+	.content_text {
+	font-family: Tahoma;
+	color: #424C43;
+	font-size: 14px;
+	word-spacing: 3px;
+	line-height: 1.5;
+	padding-top: 2px;
+	padding-bottom: none;
+	padding-left: 10px;
+	
+	}
+	h3{	
+	font-family: Tahoma;
+	color: #424C43;
+	text-align: center;
+	padding-top: 10px;
+		
+	}
+	.inleft1{
+		height: 140px;
+		border-bottom: 1px solid silver;
+	}
+	.inleft2{
+		height: 320px;
+		border-bottom: 1px solid silver;
+	}
+	.footer{
+	width: 1000px;
+	margin: 0 auto;
+	
+}
