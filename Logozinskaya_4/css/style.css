@@ -16,7 +16,6 @@ body{
 	background: white;
 	margin: 0 auto;
 	box-shadow:  0 0 10px rgba(0,0,0,0.5);
-	
 }
 .heder{
 	width: 1000px;
@@ -40,7 +39,6 @@ body{
 	font-family: Tahoma;
 	font-size: 10px;
 	color: #128AA7;
-	
 }
 .contacts p:first-line{
 	font-weight: bold;
@@ -50,20 +48,16 @@ body{
 	float: right;
 	clear: left;
 	margin-top: -70px;
-	
 }
 .country{
 	position: relative;
-	
 }
 .country li{
 	margin-right: 10px;
 	position: relative;
 	float: left;
-	
 }
 .country a{
-	
 	display: block;
 	width: 50px;
 	height: 10px;
@@ -72,12 +66,10 @@ body{
 	text-align: center;
 	font-family: tahoma;
 	font-size: 9px;
-	
 	padding-top: 40px;
 	color: #128AA7;
 	background-position: center top;
 	background-repeat: no-repeat;
-	
 }
 .country .india a {
 	background-image: url(../img/i_flag.png);
@@ -97,8 +89,6 @@ body{
 .country .maldivi a {
 	background-image: url(../img/m_flag.png);
 }
-
-
 .top-menu{
 	width: 1000px;
 	height: 30px;
@@ -107,14 +97,10 @@ body{
 	background: linear-gradient(to top, #373737, #303030);
 	box-shadow: 0 5px 5px -5px #333;
 	border-top: 1px solid #CACBCB;
-	
-	
 	}
 .menu ul {
 	list-style: none;
-	
 }
-
 .menu ul li{
 	float: left;
 	height: 24px;
@@ -124,23 +110,21 @@ body{
 	padding-left: 20px;
 	}	
 .menu ul li ul{
-		display: none;
-		position: absolute;
-		top: 29px;
-		
-		padding-right: 30px;
-		width: 120px;
-		height:122px;
-		border: 2px solid transparent;
-		background: #303030;
-		box-shadow:  0 0 10px rgba(0,0,0,0.5);
-		text-align: right;
-		line-height: 75%
+	display: none;
+	position: absolute;
+	top: 29px;
+	padding-right: 30px;
+	width: 120px;
+	height:122px;
+	border: 2px solid transparent;
+	background: #303030;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+	text-align: right;
+	line-height: 75%
 	}
-	.menu ul li:hover ul{
-		display:block;
+.menu ul li:hover ul{
+	display:block;
 	}
-	
 .menu ul li a{
 	display:block;
 	padding: 5px;
@@ -150,51 +134,42 @@ body{
 	text-decoration: none;
 }
 .menu ul li ul li{
-padding-left: 0;
-margin-left: 0;	
+	padding-left: 0;
+	margin-left: 0;	
 }
-
-	
-
 /*колонки*/
 .content{
- width: 1000px;
- overflow: hidden;
+	width: 1000px;
+	overflow: hidden;
 }
-
 .left-column{
- width: 209px;
- height: 600px;
- border: 1px solid silver;
- float: left;
- background: #edeef0;
- padding-bottom: 2000px;
- margin-bottom: -2000px;
+	width: 209px;
+	height: 600px;
+	border: 1px solid silver;
+	float: left;
+	background: #edeef0;
+	padding-bottom: 2000px;
+	margin-bottom: -2000px;
 }
 .inright{
 	height: 270px;
 	border-bottom: 1px solid silver;
-	
-	
-	
 }
 .centr-column{
- width: 582px;
- float: left;
- background: white;
- padding-bottom: 2000px;
- margin-bottom: -2000px;
+	width: 582px;
+	float: left;
+	background: white;
+	padding-bottom: 2000px;
+	margin-bottom: -2000px;
 }
-
 .right-column {
- width: 209px;
- border: 1px solid silver;
- float: right;
- background: #edeef0;
- padding-bottom: 2000px;
- margin-bottom: -2000px;
+	width: 209px;
+	border: 1px solid silver;
+	float: right;
+	background: #edeef0;
+	padding-bottom: 2000px;
+	margin-bottom: -2000px;
 }
-
 .text {
 	font-family: Tahoma;
 	color: #fff;
@@ -203,7 +178,7 @@ margin-left: 0;
 	padding-bottom: 5px;
 	margin: 20 0;
 	}
-	.content_text {
+.content_text {
 	font-family: Tahoma;
 	color: #424C43;
 	font-size: 14px;
@@ -212,25 +187,22 @@ margin-left: 0;
 	padding-top: 2px;
 	padding-bottom: none;
 	padding-left: 10px;
-	
 	}
-	h3{	
+h3{	
 	font-family: Tahoma;
 	color: #424C43;
 	text-align: center;
 	padding-top: 10px;
-		
 	}
-	.inleft1{
-		height: 140px;
-		border-bottom: 1px solid silver;
+.inleft1{
+	height: 140px;
+	border-bottom: 1px solid silver;
 	}
-	.inleft2{
-		height: 320px;
-		border-bottom: 1px solid silver;
+.inleft2{
+	height: 320px;
+	border-bottom: 1px solid silver;
 	}
-	.footer{
+.footer{
 	width: 1000px;
 	margin: 0 auto;
-	
 }
